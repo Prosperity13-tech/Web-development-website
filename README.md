@@ -10,6 +10,13 @@ This website has a responsive layout that works well on mobile, tablet and deskt
 HTML for page structure and content
 CSS for styling, layout, colours, fonts and responsiveness.
 Javascript for the interactive behaviour and user actions
-
+## how to view
+You can download this repository
+open the index.html in a web browser
+You can view it live here on GitHub pages
+## Notes
+Submitted:19 June 2026
+created by Prosperity Chauke - student number: ST10525182
+Special thanks : Built while balancing all the studies
 
 
