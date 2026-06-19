@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content=" Mr Price offers a wide range of fashion clothing, footwear.	Mr price is a store which is case-based, which provides fashion-value products to their customers. They operate in various categories such as in homeware, sportwear, financial services.">
+    <meta name="keywords" content="sportwear,  ladies dresses, shoes, tshirts, denim jeans, accessories, jewerly,footwear">
+        <link rel="stylesheet" href="css_assets/mystyle.css"> 
+    <title>MR PRICE |Enquiries</title>
+     <!--JQuery library and files that load lightbox-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!--External javascript saved in js assets folder-->
+    <script src="js_assets\myjavascript.js"></script>
+
+    <!--lightbox2 css for styling the lightbox, image positioning, next/prev buttons, close buttons, captions.-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet" />
+
+    <!--lightbox2 js function. Contains the functionality, opening imagesin a popup, closing images,gallery navigation, image animation-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+</head>
+<body>
+   <header>
+        <img src=" _images\mrprice _logo.png" width="130"/>
+        <form action="#" class="search-container">
+        <input type="text" placeholder="search...">
+        <button type="submit" class="search-btn">Search</button>
+        </form>
+        <hr size="3"/>
+        <nav class="navbar">
+            <ul class="navigation">
+                <li style="display:inline;">
+                    <a href="index.html">Home</a>
+                </li>
+                <li style="display: inline;">
+                    <a href="about_us.html">About us</a>
+                </li>
+                <li style="display:inline">
+                    <a href="service.html">Services</a>
+                </li>
+                <li style="display:inline;">
+                    <a href="contact.html">Contact</a>
+
+                </li>
+                
+            </ul>
+        </nav>
+        
+        <img src="_images\girls.jpg" width="100%" height="20%"/>
+    </header> 
+    <main>
+        <h2><font color="#DB2131">INQUIRY FORM</font></h2>
+        
+        <form action="/submit-inquiry" method="post">
+            <label for="name">Full Name:</label><br>
+            <input type="text" id=" full-name" name="name"  placeholder="Enter your name" required><br><br>
+
+            <label for="emal">Email:</label><br>
+            <input type="email"  id="email" name="email" placeholder="Enter your email" required><br><br>
+            <label for="order-id">Order Number</label><br>
+            <input type="text" id="order-id" name="order_id" placeholder="for example.MRP123456">
+            <br><br>
+
+            <label for="reason">How can we help you?</label><br>
+            <select id="reason" name="reason">
+                <option value="delivery">Delivery Status</option>
+                <option value="return">Returns and Exchange</option>
+                <option value="account">My Account</option>
+                <option value="product">Product Information</option>
+            </select>
+            <br><br>
+
+            <label for="message">Message</label><br>
+            <textarea id="message" name="message" row="5" required placeholder="Tell us more about your inquiry..."></textarea>
+            <br><br>
+
+            <button type="submit">Submit Inquiry</button>
+            
+        </form>
+        
+        <!--Comment-->
+
+    
+
+    </main>
+    <footer>
+        <div>
+            <p><center>MR PRICE &copy;&trade;2026</center></p>
+        </div>
+    </footer>
+
+
+</body>
+</html>
